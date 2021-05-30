@@ -322,7 +322,31 @@ header .intro-text {
 	font-weight: 500;
 	padding: 5px 0;
 	color: #fff;
-} 
+}
+#services h3 > a {
+	font-weight: 500;
+	padding: 5px 0;
+	color: #fff;
+}
+
+#services h3 > a:link {
+	color: #fff;
+  }
+  
+  /* visited link */
+#services h3 > a:visited {
+	color: #fff;
+  }
+  
+  /* mouse over link */
+  #services h3 > a:hover {
+	color: #fff;
+  }
+  
+  /* selected link */
+#services h3 > a:active {
+	color: #fff;
+}
 
 #services p {
 	color: rgba(255,255,255,.75);
